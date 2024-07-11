@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #000; 
-    color: #fff; 
     padding-top: 56px; 
 }
 
@@ -12,6 +11,10 @@ body {
 
 #quienes-somos {
     background-color: #000; 
+}
+
+.card {
+box-shadow: 0 4px 8px rgba(228, 230, 242, 0.571), 0 6px 20px rgba(255, 255, 255, 0.1);
 }
 
 .section-title {
@@ -26,21 +29,45 @@ footer {
     background-color: #000; 
 }
 
+.footer-elements{
+    display: flex;
+}
+.footer-icons{
+    margin-left: 1000px;
+}
+
 .card {
     border: none; 
     border-radius: 0; 
 }
 
-.card-header {
-    background-color: #0d6efd; 
-    border-radius: 0; 
+.card-icon {
+    background-color: #2D59A2;
 }
 
-.card-header i {
-    color: #fff; 
+.card-icon i {
+    color: #fff;
 }
 
 .card-body {
     color: #fff; 
     padding: 1rem; 
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .carousel-indicators,
+    .carousel-control-prev,
+    .carousel-control-next,
+    .carousel-item:not(.active) {
+        display: none;
+    }
 }

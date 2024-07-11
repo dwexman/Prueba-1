@@ -10,6 +10,8 @@ $(document).ready(function(){
         }
     });
 
-    // Tooltip initialization
+    // Tooltip 
     $('[data-toggle="tooltip"]').tooltip();
+
+    
 });
