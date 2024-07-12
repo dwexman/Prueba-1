@@ -1,7 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #000; 
-    padding-top: 56px; 
+    font-family: 'Manrope', sans-serif;
+    background-color: #000;
+    padding-top: 56px;
 }
 
 .carousel-item img {
@@ -10,33 +10,32 @@ body {
 }
 
 #quienes-somos {
-    background-color: #000; 
+    background-color: #000;
 }
 
-
 .section-title {
-    font-size: 2.5rem; 
+    font-size: 2.5rem;
 }
 
 #contacto {
-    background-color: #000; 
+    background-color: #000;
 }
 
 footer {
-    background-color: #000; 
+    background-color: #000;
 }
 
-.footer-elements{
+.footer-elements {
     display: flex;
 }
-.footer-icons{
-    margin-left: 1000px;
+
+.footer-icons {
+    margin-left: auto;
 }
 
 .card {
-    border: none; 
-    border-radius: 0; 
-    box-shadow: 0 4px 8px rgba(228, 230, 242, 0.571), 0 6px 20px rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 0;
 }
 
 .card-icon {
@@ -48,8 +47,8 @@ footer {
 }
 
 .card-body {
-    color: #fff; 
-    padding: 1rem; 
+    color: #fff;
+    padding: 1rem;
 }
 
 .card-text {
@@ -61,12 +60,8 @@ footer {
     object-fit: cover;
 }
 
-
 @media (max-width: 575.98px) {
-    .carousel-indicators,
-    .carousel-control-prev,
-    .carousel-control-next,
-    .carousel-item:not(.active) {
+    #quienes-somos {
         display: none;
     }
 }
